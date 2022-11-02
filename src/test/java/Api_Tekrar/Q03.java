@@ -67,7 +67,7 @@ public class Q03 extends ReqresBaseUrl {
                         "support.text", equalTo("To keep ReqRes free, contributions towards server costs are appreciated!"));
 
         // -----
-        JsonPath jsonPath = response.jsonPath();
+        JsonPath jsonPath = response.jsonPath(); // response ı jsonPath'e dönüştürüyor.
 
         assertEquals(200,response.getStatusCode());
         assertEquals("application/json; charset=utf-8",response.getContentType());

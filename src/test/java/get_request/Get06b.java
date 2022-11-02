@@ -26,10 +26,12 @@ public class Get06b extends ReqresBaseUrl {
         4)Print all names whose ids are less than 3 on the console
           Assert that the number of names whose ids are less than 3 is 2
           ------------
-          1)Durum kodu 200
-          2)Tüm pantone_değerlerini yazdır
-          3)Konsolda 3'ten büyük tüm kimlikleri yazdır 3'ten büyük 3 kimlik olduğunu iddia et
-          4)Kimlikleri 3'ten küçük olan tüm adları konsolda yazdır kimlikleri 3'ten küçük olan isimler 2'dir
+          1) Durum kodu 200
+          2) Tüm pantone_değerlerini yazdır
+          3) Konsolda 3'ten büyük tüm kimlikleri yazdır
+             3'ten büyük 3 kimlik olduğunu doğrula
+          4) id leri 3'ten küçük olan tüm adları konsolda yazdır
+             id leri 3'ten küçük olan isimler 2 tane olduğunu doğrula
           ------------
     */
     //Set the Url
@@ -59,7 +61,7 @@ public class Get06b extends ReqresBaseUrl {
         System.out.println(jsonPath.getList("data.pantone_value"));
 
         // 3)Print all ids greater than 3 on the console
-        List<Integer> ids = jsonPath.getList("data.findAll{it.id>3}.id");
+        List<Integer> ids = jsonPath.getList("data.findAll{it.id>3}.id"); // list datadan sonra başlıyor.
         System.out.println("ids = " + ids);
         //   Assert that there are 3 ids greater than 3
         assertEquals(3, ids.size());

@@ -10,7 +10,7 @@ public class JsonplaceholderBaseUrl {
 
     @Before // Extend yaptığımız her class ta Test methodundan önce çalışması için ekledik.
     public void setup() {
-        spec = new RequestSpecBuilder().setBaseUri("https://reqres.in/api/users/23").build();
+        spec = new RequestSpecBuilder().setBaseUri("https://jsonplaceholder.typicode.com").build();
     }
     /*
     Normalde constructor oluştururken class'la aynı isimde oluşturmamız gerekiyor.

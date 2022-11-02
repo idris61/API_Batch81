@@ -46,7 +46,7 @@ public class Get01 {
     public void get01() {
 
         //  i)  Set the URL,
-        String url = "https://restful-booker.herokuapp.com/booking/101";
+        String url = "https://restful-booker.herokuapp.com/booking/145";
 
         // ii) Set the expected Data (beklenen datanin olusturulmasi, Post, Put, Patch)
         // Bizden post, put ya da patch istenmedigi icin bu case de kullanmayacagiz.
