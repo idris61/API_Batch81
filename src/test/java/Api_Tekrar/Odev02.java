@@ -1,6 +1,6 @@
 package Api_Tekrar;
 
-import base_url.GoRestBaseUrl;
+import base_urls.GoRestBaseUrl;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.junit.Test;

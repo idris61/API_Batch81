@@ -1,6 +1,6 @@
 package Api_Tekrar;
 
-import base_url.JsonplaceholderBaseUrl;
+import base_urls.JsonplaceholderBaseUrl;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;

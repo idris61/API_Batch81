@@ -1,6 +1,6 @@
 package Api_Tekrar;
 
-import base_url.RestfulBaseUrl;
+import base_urls.RestfulBaseUrl;
 import io.restassured.response.Response;
 import org.junit.Test;
 
