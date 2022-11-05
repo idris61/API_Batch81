@@ -53,7 +53,7 @@ public class BookingPojo {
         this.depositpaid = depositpaid;
     }
 
-    public BookingDatesPojo getBookingDates() {
+    public BookingDatesPojo getBookingdates() {
         return bookingdates;
     }
 
