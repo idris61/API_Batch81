@@ -10,7 +10,7 @@ import java.util.List;
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;
 
-public class C01 extends AutomationexerciseBaseUrl {
+public class Odev1 extends AutomationexerciseBaseUrl {
      /*
         Given
             https://automationexercise.com/api/brandsList
